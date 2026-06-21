@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(30, 10, 10);
+    height: 100vh;
+    
+    justify-content: center;
+    margin: 0;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+   
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h2{
+ color: azure;
+ font-size: 50px;
+ margin: 30px;
+ padding: 20px;
+ justify-content: center;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+
+}
+
+button{
+    font-size: 30px;
+    padding: 30px;
+    margin: 30px;
+    font-size: 30px;
+    border-radius: 50px;
+    border: 5px solid rgb(139, 146, 139);
+    
+
+}
