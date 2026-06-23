@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#first{
+ color: black;
+ background-color: antiquewhite;
+ text-align: center;
+ justify-content: center;
+ height: 140px;
+ font-size: 20px;
+ 
+ padding: 20px;
+ margin: 10px;
+}
+#second{
+ color: black;
+ background-color: antiquewhite;
+ text-align: center;
+ justify-content: center;
+ height: 140px;
+ font-size: 20px;
+ padding: 20px;
+ margin: 10px;
+ 
+align-items: center;
+}
+h1{
+    font-size: 60px;
+}
+
+/* button:active{
+    background-color: green;
+} */

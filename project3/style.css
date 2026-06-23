@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+}
+
+div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+#first{
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+}
+#second{
+font-size: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 185, 127);
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+}
+
+#third{
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(58, 30, 220);
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+}
+#fourth{
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+}
+
+#fifth{
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    background-color:green;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+}
+#sixth{
+font-size: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+}
+
+#seventh{
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+}
+
+#root{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
